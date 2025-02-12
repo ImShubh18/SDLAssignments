@@ -1,0 +1,166 @@
+.titl
+{
+	
+	padding: 16px;
+	
+	background-color:#4b636e;
+	
+	width: 100%;
+	
+	font-size: 40px;
+	
+	text-align: center;
+
+
+}
+
+
+
+
+.nav
+{
+	padding: 16px;
+	
+	background-color:#78909c;
+	
+	width: 100%;
+
+}
+
+
+.nav a
+{
+	
+	padding: 13px 15px;
+	
+	color:#E1F5FE;
+	
+	font-size: 17px;
+
+}
+
+
+.nav a:hover 
+{
+  
+	background-color: #80DEEA;
+  
+	color: black;
+
+}
+
+
+body
+{
+	
+	background-color:#a7c0cd;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	
+	height: 100%;
+	
+	width: 96.95%;
+
+
+}
+
+.active
+{
+
+	background-color: #a7c0cd;
+
+}
+
+.nav button
+{
+	
+position: absolute;
+	
+right: 20px;
+	
+padding: 5px 7px;
+
+
+	}
+
+
+.nav img
+{
+	
+width:80px;
+
+
+}
+
+
+.sidebar 
+{
+
+	height:100%	;
+	
+	font-size:20px;
+	
+	width: 160px;
+	
+	float:left;
+	
+	
+
+
+}
+
+
+.form1 
+{
+	
+	height: 300px;
+	
+	width:  350px;
+	
+	margin: 0 auto;
+	
+	background-color: #4b636e;
+	
+	font-size: 20px;
+	
+	padding: 10px;
+	
+	border: 2px solid black;
+
+
+
+}
+
+
+#sub 
+{
+
+	position: relative;
+
+	left: 100px;
+
+	background-color: #a7c0cd ;
+
+
+
+}
+
+
+input 
+{
+
+
+	padding: 10px;
+	
+	margin: 5px;
+
+}
+
+
+#j1 
+{
+
+	
+	border: 2px solid black;
+
+}
