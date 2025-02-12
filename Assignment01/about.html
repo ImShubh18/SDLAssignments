@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-blue-600 p-4 flex items-center">
+        <img src="bus.jpeg" alt="Bus" class="h-10 w-14 mr-4">
+        <h1 class="text-white text-xl font-bold">Bus Ticket System</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-gray-800 text-white flex justify-between p-3">
+        <div class="space-x-4">
+            <a href="index.html" class="hover:text-yellow-400">Home</a>
+            <a href="secondpage.html" class="hover:text-yellow-400">Buy</a>
+            <a href="#" class="text-yellow-400 font-bold">About Us</a>
+            <a href="contact.html" class="hover:text-yellow-400">Contact Us</a>
+        </div>
+        <button class="bg-yellow-500 px-4 py-2 rounded-md hover:bg-yellow-400">LOGIN</button>
+    </nav>
+
+    <!-- Main Layout -->
+    <div class="flex">
+        <!-- Sidebar -->
+        <aside class="w-1/4 bg-white shadow-md p-4">
+            <h2 class="text-lg font-bold text-blue-600">Bus Routes</h2>
+            <ul class="mt-2 space-y-2">
+                <li class="border-b py-1">Pune To Mumbai - <span class="text-green-600">₹200</span></li>
+                <li class="border-b py-1">Pune To Nashik - <span class="text-green-600">₹350</span></li>
+                <li class="border-b py-1">Pune To Aurangabad - <span class="text-green-600">₹300</span></li>
+                <li class="border-b py-1">Pune To Latur - <span class="text-green-600">₹290</span></li>
+                <li class="border-b py-1">Pune To Satara - <span class="text-green-600">₹180</span></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="w-3/4 p-6">
+            <h3 class="text-2xl font-bold text-blue-700 mb-2">About Us</h3>
+            
+            <section class="mb-4">
+                <h4 class="text-xl font-semibold">History</h4>
+                <p class="text-gray-700">
+                    This organization started in 2022 to help customers easily book bus tickets. 
+                    Founded by Mr. ABCD, it aims to provide a simple, user-friendly experience.
+                </p>
+            </section>
+
+            <section class="mb-4">
+                <h4 class="text-xl font-semibold">Description</h4>
+                <p class="text-gray-700">
+                    Our website offers a hassle-free way to book tickets. The sidebar lists bus routes and prices, 
+                    while the menu provides quick access to key sections.
+                </p>
+            </section>
+
+            <section class="mb-4">
+                <h4 class="text-xl font-semibold">Unique Bus Booking Platform</h4>
+                <p class="text-gray-700">
+                    SureGo.in is one of India's largest online bus ticketing platforms, trusted by over 3 million Indians.
+                    With 10 million tickets sold and partnerships with 2300 bus operators, we cover 3000+ routes nationwide.
+                </p>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>

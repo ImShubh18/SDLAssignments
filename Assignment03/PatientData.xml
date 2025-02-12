@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patients>
+    <Patient>
+        <ID>1</ID>
+        <Name>John Doe</Name>
+        <Age>35</Age>
+        <Gender>Male</Gender>
+        <MigraineHistory>true</MigraineHistory>
+        <Symptoms>
+            <Symptom>Headache</Symptom>
+            <Symptom>Nausea</Symptom>
+            <Symptom>Sensitivity to Light</Symptom>
+        </Symptoms>
+    </Patient>
+    <Patient>
+        <ID>2</ID>
+        <Name>Jane Smith</Name>
+        <Age>28</Age>
+        <Gender>Female</Gender>
+        <MigraineHistory>false</MigraineHistory>
+    </Patient>
+</Patients>
